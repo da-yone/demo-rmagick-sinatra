@@ -1,0 +1,6 @@
+
+.DS_Store
+.bundle
+vendor
+tmp/*.png
+Gemfile.lock
