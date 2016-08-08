@@ -3,4 +3,3 @@
 .bundle
 vendor
 public/*.png
-Gemfile.lock
