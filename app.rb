@@ -1,6 +1,9 @@
 require 'sinatra'
 require 'rmagick'
 require 'slim'
+require 'logger'
+
+logger = Logger.new(STDOUT)
 
 get '/' do
   slim :index
@@ -22,4 +25,3 @@ post '/' do
   image.write('public/tmp.png')
   slim :index
 end
-
